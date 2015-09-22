@@ -3,20 +3,8 @@
     <output-path>$PROJECT_DIR$/out/artifacts/TajoGenericBenchmark_jar</output-path>
     <root id="archive" name="TajoGenericBenchmark.jar">
       <element id="module-output" name="TajoGenericBenchmark" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/lib/guava-19.0-rc1.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/lib/commons-lang-2.6.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/lib/commons-logging-1.2.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/lib/protobuf-java-2.5.0.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/lib/netty-codec-4.0.29.Final.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/lib/netty-buffer-4.0.29.Final.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/lib/netty-common-4.0.29.Final.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/lib/netty-handler-4.0.29.Final.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/lib/tajo-client-0.12.0-SNAPSHOT.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/lib/tajo-common-0.12.0-SNAPSHOT.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/lib/netty-transport-4.0.29.Final.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/lib/tajo-rpc-common-0.12.0-SNAPSHOT.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/lib/tajo-rpc-protobuf-0.12.0-SNAPSHOT.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/lib/tajo-catalog-common-0.12.0-SNAPSHOT.jar" path-in-jar="/" />
+      <element id="library" level="project" name="lib" />
+      <element id="extracted-dir" path="$USER_HOME$/tajo-0.12.0-SNAPSHOT/share/jdbc-dist/tajo-jdbc-0.12.0-SNAPSHOT.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
